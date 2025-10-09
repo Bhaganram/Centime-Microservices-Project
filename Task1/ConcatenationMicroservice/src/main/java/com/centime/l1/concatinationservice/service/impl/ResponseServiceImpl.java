@@ -1,7 +1,7 @@
 
-package com.centime.l1.thirdservice.service.impl;
+package com.centime.l1.concatinationservice.service.impl;
 
-import com.centime.l1.thirdservice.service.ResponseService;
+import com.centime.l1.concatinationservice.service.ResponseService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

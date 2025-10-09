@@ -1,7 +1,7 @@
 
-package com.centime.l1.thirdservice.controller;
+package com.centime.l1.concatinationservice.controller;
 
-import com.centime.l1.thirdservice.service.ResponseService;
+import com.centime.l1.concatinationservice.service.ResponseService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.http.ResponseEntity;

@@ -1,15 +1,16 @@
 
-package com.centime.l1.wrappedstringservice;
+package com.centime.l1.dbconnectionservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 /**
  * Main class to start the Spring Boot application.
  * @author Bhagan Ram
  */
-@SpringBootApplication(scanBasePackages = "com.centime.l1")
+@SpringBootApplication(scanBasePackages = "com.centime.l1",exclude = DataSourceAutoConfiguration.class)
 public class Application extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
@@ -21,6 +22,4 @@ public class Application extends SpringBootServletInitializer {
         return application.sources(Application.class);
     }
 
-
 }
-
